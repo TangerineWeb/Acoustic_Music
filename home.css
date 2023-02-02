@@ -1,0 +1,128 @@
+body{
+
+    background-color: rgb(92, 19, 95);
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    height: 50px;
+}
+
+
+nav{
+    background-color: black;
+    height: 60px;
+  
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: aliceblue;
+}
+
+
+.menu a:hover{
+    color: aqua;
+    
+    
+}
+
+.logo{
+    flex: 1;
+}
+
+
+.logo a{
+    display: flex;
+    align-items: center;
+    color: yellow;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+   padding: 15px 10px;
+   font-size: 30px;
+   text-decoration: none;
+}
+
+.menu li a{
+    text-decoration: none
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+
+    
+    
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }  
+
+
+
+.menu.active, .toggle{
+    display: block;
+}
+
+.toggle{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: antiquewhite;
+}
+
+
+.menu{
+    margin-top: 15px;
+    display: none;
+}
+
+
+    nav{
+        display: block;
+        position: relative;
+        padding: 0px 20px;
+    }
+}
+
+
+
+@media screen and (max-width:600px){
+    body{
+        background: antiquewhite;
+    }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        height: 65px;
+        width: 150%;
+        background-color: black;
+    }
+}
