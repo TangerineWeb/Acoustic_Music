@@ -110,6 +110,13 @@ nav a{
     }
 }
 
+.container h1{
+    color: black;
+    font-size: 3.5rem;
+    aling-text: center;
+    top-margin: 50%:
+    bottom-margin: 50%;
+}
 
 
 @media screen and (max-width:600px){
